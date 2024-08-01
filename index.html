@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82d5ad377a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>HOTEL</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Welcome To Paradise Hotel</h1>
+            <p>We provide Rooms at a very good price along with great amenities to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    <h1 class="about-heading"> About Us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Looking for a vacation to leave behind the hustle of everyday life and indulge in world-class
+                hospitality at exotic locations? Look no further than the leading & fastest growing hotel chain 
+                of Eastern India, Hotel Paradise. Your unwinding days with us will be the perfect blend of leisure, 
+                comfort, convenience & class.
+            </p>
+            <p>We are currently present at Puri, Mandarmoni, Kolaghat, Tarapith, Darjeeling, Taki & Sundarban to 
+                make your well-deserved vacation a truly unforgettable affair.</p>
+            <button class="know-button">Know More...</button>
+        </div>
+        <div class="amenities">
+            <h3>Amenities we have:</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>High-speed Internet</li>
+                <li><i class="fa-solid fa-bowl-rice"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="Images/room.jpg" alt="Room Image">
+        </div>
+        <div class="room-list">
+            <h4>Single Occupancy Room</h4>
+            <p>This room is for one person, equipped with one single bed.</p>
+            <h4>Family Room</h4>
+            <p>This room is for two people, equipped with one double bed, so-called queen size bed.</p>
+            <h4>Duplex Room</h4>
+            <p>It's a two-level room. It consists of at least one bedroom on one floor and a living room or bedroom on the second floor. You can also find more bedrooms on any of the floors. These types of rooms are commonly chosen by families with small children who go to bed much earlier, and thanks to two levels they are provided with more comfort and silence.</p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill The Form for Booking Room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date Of Booking</label>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Room Type</label>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select...</option>
+                    <option value="single room">Single Room</option>
+                    <option value="family room">Family Room</option>
+                    <option value="duplex room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+</body>
+</html>
